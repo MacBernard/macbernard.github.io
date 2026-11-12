@@ -7,7 +7,7 @@ Software development company based in Gombe State, Nigeria. We build practical, 
 ## What we build
 
 - Custom business software (sales, stock, customers, staff, money records)
-- School management systems, including our flagship product **MacHub**
+- School management systems, including **MacHub** (schools), **MacSuite** (hotels) and **MacPOS** (point of sale)
 - Websites for business
 - Records digitization
 - Ongoing support and maintenance
