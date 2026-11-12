@@ -16,4 +16,16 @@
   });
 
   document.getElementById('year').textContent=new Date().getFullYear();
+  var marquee=document.querySelector('.marquee');
+  if(marquee){
+    if('IntersectionObserver' in window){
+      new IntersectionObserver(function(entries,obs){
+        entries.forEach(function(e){
+          if(e.isIntersecting){marquee.classList.add('run');obs.disconnect();}
+        });
+      },{threshold:0.2}).observe(marquee);
+    }else{
+      marquee.classList.add('run');
+    }
+  }
 })();
