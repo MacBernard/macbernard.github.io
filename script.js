@@ -22,12 +22,12 @@
   // Client carousel: logos step one place at a time; the client in the
   // center is highlighted and its details show in the fixed panel below.
   var clientData=[
-    {name:'Alheri Model School',type:'School',address:'Gombe, Nigeria'},
-    {name:'Linkhon School',type:'School',address:''},
-    {name:'Cactus Hotel',type:'Hotel',address:'Gombe, Nigeria'},
-    {name:'Flourish Hotel',type:'Hotel',address:''},
-    {name:'Grand Ville Hotel &amp; Lounge',type:'Hotel &amp; Lounge',address:''},
-    {name:'Tamusa Resort &amp; Apartment',type:'Resort &amp; Apartment',address:''}
+    {name:'Alheri Model School',type:'School',address:'Off Goodluck Jonathan Road, Buba Shango Rd, Gombe, Nigeria',phone:''},
+    {name:'Linkhon School',type:'School',address:'Federal Low Cost Road, Gombe, Nigeria',phone:''},
+    {name:'Cactus Hotel',type:'Hotel',address:'Jeka Dafari, Gombe, Nigeria',phone:''},
+    {name:'Flourish Hotel',type:'Hotel',address:'Federal Low-cost, behind All Saints College, Gombe, Nigeria',phone:'+234 806 542 3935'},
+    {name:'Grand Ville Hotel &amp; Lounge',type:'Hotel &amp; Lounge',address:'Labour Quarters, Gombe, Nigeria',phone:'+234 806 818 6069'},
+    {name:'Tamusa Resort &amp; Apartment',type:'Resort &amp; Apartment',address:'Jeka Dafari, Gombe, Nigeria',phone:''}
   ];
   var car=document.querySelector('.marquee');
   if(!car) return;
@@ -46,7 +46,8 @@
     if(info){
       info.innerHTML='<span class="ci-name">'+d.name+'</span>'+
         '<span class="ci-type">'+d.type+'</span>'+
-        (d.address?'<span class="ci-address">'+d.address+'</span>':'');
+        (d.address?'<span class="ci-address">'+d.address+'</span>':'')+
+        (d.phone?'<span class="ci-phone">'+d.phone+'</span>':'');
       info.classList.remove('swap');void info.offsetWidth;info.classList.add('swap');
     }
   }
