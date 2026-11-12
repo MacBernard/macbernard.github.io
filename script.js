@@ -24,7 +24,7 @@
   var clientData=[
     {name:'Alheri Model School',type:'School',address:'Off Goodluck Jonathan Road, Buba Shango Rd, Gombe, Nigeria',phone:''},
     {name:'Linkhon School',type:'School',address:'Federal Low Cost Road, Gombe, Nigeria',phone:''},
-    {name:'Cactus Hotel',type:'Hotel',address:'Jeka Dafari, Gombe, Nigeria',phone:''},
+    {name:'Cactus Hotel',type:'Hotel',address:'No. 1 Katungo Street, Abubakar Habu Hashidu Housing Estate, Gombe, Nigeria',phone:'+234 903 283 2467'},
     {name:'Flourish Hotel',type:'Hotel',address:'Federal Low-cost, behind All Saints College, Gombe, Nigeria',phone:'+234 806 542 3935'},
     {name:'Grand Ville Hotel &amp; Lounge',type:'Hotel &amp; Lounge',address:'Labour Quarters, Gombe, Nigeria',phone:'+234 806 818 6069'},
     {name:'Tamusa Resort &amp; Apartment',type:'Resort &amp; Apartment',address:'Jeka Dafari, Gombe, Nigeria',phone:''}
